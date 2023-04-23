@@ -1,0 +1,63 @@
+@import "../../sass/app.scss";
+
+.notifications-menu__title {
+  font-size: 24px;
+  color: $white;
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+
+.notifications-menu__item {
+  display: flex;
+  padding: 8px;
+}
+
+.notifications-menu__text-container {
+  padding: 0 16px;
+
+  p {
+    font-size: 15px;
+    color: darken($white, 10%);
+  }
+
+  b {
+    font-weight: bold;
+  }
+}
+
+.notifications-menu__profile-container {
+  position: relative;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.notifications-menu__timestamp {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.notifications-menu__icons {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/07N7Dd-i6yZ.png");
+  width: 28px;
+  height: 28px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+.birthday-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/07N7Dd-i6yZ.png");
+  background-position: 0px -580px;
+}
+
+.post-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/07N7Dd-i6yZ.png");
+  background-position: 0px -1624px;
+}
+
+.event-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/07N7Dd-i6yZ.png");
+  background-position: 0px -609px;
+}

@@ -1,0 +1,250 @@
+@import "../../sass/app.scss";
+
+.header__items {
+  display: flex;
+  gap: 8px;
+  margin-left: 20px;
+  margin-right: auto;
+  @media (min-width: 700px) {
+    flex-grow: 1;
+    margin-left: 68px;
+    margin-right: 20px;
+  }
+
+  @media (min-width: 945px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    margin: 8px 8px;
+    height: 1px;
+    border-width: 0;
+    background-color: $divider;
+  }
+}
+
+.center__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 8px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.center__nav-item-hidden {
+  display: none;
+  @media (min-width: 700px) {
+    display: block;
+  }
+}
+
+.menu__title {
+  display: none;
+}
+
+.center__nav-item {
+  position: relative;
+  width: 100%;
+  &:hover {
+    .menu__title {
+      display:block;
+      @include background-opacity($white, 0.9);
+      position: absolute;
+      top: 55px;
+      left: 50%;
+      border-radius: 15px;
+      padding: 0.75rem;
+      transform: translateX(-50%);
+      z-index: 2;
+      color: $black;
+    }
+  }
+}
+
+.center__nav-icon__container {
+  padding: 8px;
+  cursor: pointer;
+  @media (min-width: 700px) {
+    text-align: center;
+  }
+}
+
+.center__nav-icon__border--active {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  border-bottom: 3px solid $fillFocus;
+  border-radius: 1px;
+  top: 108%;
+  left: 0;
+}
+
+.center__nav-more {
+  @media (min-width: 1100px) {
+    display: none;
+  }
+}
+
+.center__nav-gaming {
+  display: none;
+  @media (min-width: 1100px) {
+    display: block;
+  }
+}
+.more_overlay {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: $background;
+  padding: 8px;
+  width: 100%;
+  height: calc(100% - 64px);
+  overflow-y: auto;
+}
+
+.more__dropdown {
+  padding: 8px;
+}
+
+.more__item {
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  h2 {
+    font-weight: normal;
+    font-size: 15px;
+  }
+}
+
+.more__item-first-last {
+  padding-left: 8px;
+}
+
+.more__menu-icons {
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/BHDNlEdwMgn.png");
+  transform: scale(0.77777777);
+}
+
+.friends-icon {
+  background-position: 0px -296px;
+}
+
+.most-recent-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/eECk3ceTaHJ.png");
+}
+
+.groups-icon {
+  background-position: 0px -74px;
+}
+
+.marketplace-icon {
+  background-position: 0px -407px;
+}
+
+.watch-icon {
+  background-position: 0px -518px;
+}
+
+.memories-icon {
+  background-position: 0px -444px;
+}
+
+.saved-icon {
+  background-position: 0px -185px;
+}
+
+.pages-icon {
+  background-position: 0px -111px;
+}
+
+.ad-center-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/CwKNCefmHON.png");
+}
+
+.ads-manager-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/DHBHg9MEeSC.png");
+}
+
+.blood-donations-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/z3JoyCWlf8g.png");
+  background-position: -722px -175px;
+}
+
+.climate-science-center-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Jr0q8qKF2-Y.png");
+}
+
+.crisis-response-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/fNPcDZC-2PD.png");
+}
+
+.events-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/WMOYDeEqIYv.png");
+}
+
+.favorites-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/mAnT0r8GSOm.png");
+}
+
+.fundraisers-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/mAnT0r8GSOm.png");
+}
+
+.gaming-video-icon {
+  background-position: 0px -37px;
+}
+
+.live-videos-icon {
+  background-position: 0px -370px;
+}
+
+.messenger-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/CQd7aGaFAXB.png");
+  background-position: 0px -37px;
+}
+
+.messenger-kids-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/1Xvrz50fHMF.png");
+}
+
+.meta-quest-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/X_XWe7iDeyK.png");
+}
+
+.news-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/jEh7gupryIB.png");
+}
+
+.orders-and-payments-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/GJ4EaivDaSj.png");
+}
+
+.play-games-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/JzYamtSussX.png");
+}
+
+.ray-ban-stories-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/zQwTF98Z85D.png");
+}
+
+.recent-ad-activity-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/8OasGoQgQgF.png");
+}
+
+.voting-information-center-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/CCoUFjDYz42.png");
+  background-position: 0px -92px;
+}
+
+.additionalLinks__container {
+  padding: 8px;
+}

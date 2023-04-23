@@ -1,0 +1,94 @@
+@import "../../sass/app.scss";
+
+.account-profile__container {
+  min-width: 340px;
+  padding: 5px;
+  box-shadow: 0 0 5px 0 darken($secondary, 2%);
+  hr {
+    margin: 8px 8px;
+    height: 1px;
+    border-width: 0;
+    background-color: $divider;
+  }
+}
+
+.account-title__container {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 0 8px;
+}
+
+.account-menu__title {
+  color: $white;
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+
+.account-profile-all__container {
+  padding: 8px;
+  p {
+    color: $fillFocus;
+  }
+}
+
+.account-menu__item {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.account-menu__text-container {
+  padding: 0 16px;
+  h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 13px;
+    color: darken($white, 20%);
+  }
+}
+
+.account-menu__icons {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(89%) sepia(6%) hue-rotate(185deg);
+}
+
+.setting-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/e857Eeuyajs.png");
+  background-position: -147px -105px;
+  background-size: 189px 177px;
+}
+
+.help-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/CBZNj6nEhKg.png");
+  background-position: 0 -318px;
+  background-size: 41px 423px;
+}
+
+.display-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/D6jsqgqmv_K.png");
+  background-position: 0 -396px;
+  background-size: 33px 590px;
+}
+
+.feedback-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/CBZNj6nEhKg.png");
+  background-position: 0 -150px;
+  background-size: 41px 423px;
+}
+
+.logout-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/zFfdCv5HY_K.png");
+  background-position: 0 -700px;
+  background-size: 25px 1574px;
+}
+
+.additionalLinks__container {
+  padding: 8px;
+}

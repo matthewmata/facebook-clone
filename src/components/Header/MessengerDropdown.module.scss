@@ -1,0 +1,40 @@
+@import "../../sass/app.scss";
+
+.messenger-menu__title {
+  font-size: 24px;
+  color: $white;
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+
+.messenger-searchbar-container {
+  padding: 0 8px;
+  margin: 16px 0;
+}
+
+.messenger-menu__item {
+  display: flex;
+  padding: 8px;
+}
+
+.messenger-menu__text-container {
+  padding: 0 16px;
+
+  h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 13px;
+    color: darken($white, 20%);
+  }
+}
+
+.create-menu__icons {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(89%) sepia(6%) hue-rotate(185deg);
+}

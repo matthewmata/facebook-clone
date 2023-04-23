@@ -1,0 +1,7 @@
+// import abstracts
+@import "./abstracts/_variables";
+@import "./abstracts/_mixins.scss";
+
+// import core
+@import "./core/_reset.scss";
+@import "./core/_typography.scss";

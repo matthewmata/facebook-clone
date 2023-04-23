@@ -1,0 +1,54 @@
+@import "../../sass/app.scss";
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar__back-arrow-container {
+  margin-right: 5px;
+}
+
+.search-bar__back-arrow-bubble {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+
+  svg {
+    display: block;
+    margin: auto;
+  }
+
+  &:hover {
+    background: lighten($secondary, 10%);
+  }
+}
+
+.search-bar__input-container {
+  padding: 10px;
+  width: 100%;
+  border-radius: 100px;
+  background-color: lighten($secondary, 10%);
+  display: flex;
+  input {
+    margin-left: 5px;
+    width: 100%;
+    outline: none;
+    box-shadow: none !important;
+    background-color: lighten($secondary, 10%);
+    border-style: hidden;
+    color: $white;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
+
+.search-bar__input-placeholder::placeholder {
+  color: $svgFill;
+}
+
+.search-bar__input-placeholder--active::placeholder {
+  color: darken($svgFill, 20%);
+}

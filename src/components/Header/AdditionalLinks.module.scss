@@ -1,0 +1,14 @@
+@import "../../sass/app.scss";
+
+.links {  
+  font-weight: normal;
+  font-size: 13px;
+  color: $svgFill;
+  span {
+    color: $svgFill;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

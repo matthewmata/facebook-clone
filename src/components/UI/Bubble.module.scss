@@ -1,0 +1,45 @@
+@import "../../sass/app.scss";
+
+.bubble {
+  background: lighten($secondary, 10%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+
+  svg {
+    display: block;
+    margin: auto;
+  }
+
+  i {
+    display: block;
+    margin: auto;
+  }
+}
+
+.nav-bubble {
+  &:hover {
+    background: lighten($secondary, 20%);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.more-bubble {
+  width: 28px;
+  height: 28px;
+}
+
+.bubble--active {
+  background: darken($fillBackground, 10%);
+  &:hover {
+    background: $fillBackground;
+  }
+
+  &:active {
+    background: $fillBackground;
+  }
+}

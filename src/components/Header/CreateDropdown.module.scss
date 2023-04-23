@@ -1,0 +1,92 @@
+@import "../../sass/app.scss";
+
+.create-menu__title {
+  font-size: 24px;
+  color: $white;
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+
+.create-menu__items {
+  hr {
+    margin: 8px 8px;
+    height: 1px;
+    border-width: 0;
+    background-color: $divider;
+  }
+}
+
+.create-menu__item {
+  display: flex;
+  padding: 8px;
+}
+
+.create-menu__text-container {
+  padding: 0 16px;
+
+  h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 13px;
+    color: darken($white, 20%);
+  }
+}
+
+.create-menu__icons {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(89%) sepia(6%) hue-rotate(185deg);
+}
+
+.post-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/RyHP4nxB_I5.png");
+  background-position: 0px -461px;
+  background-size: 25px 1430px;
+}
+
+.story-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yo/r/494eoIbXqM1.png");
+  background-position: 0px -673px;
+}
+
+.room-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1g-3dNgjC4t.png");
+  background-position: 0px -259px;
+}
+
+.page-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1g-3dNgjC4t.png");
+  background-position: 0px -238px;
+}
+
+.ad-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1g-3dNgjC4t.png");
+  background-position: 0px -910px;
+}
+
+.group-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yo/r/494eoIbXqM1.png");
+  background-position: 0px -190px;
+}
+
+.event-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/1g-3dNgjC4t.png");
+  background-position: 0px -364px;
+}
+
+.marketplace-listing-icon {
+      background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yo/r/494eoIbXqM1.png");
+
+  background-position: 0px -652px;
+}
+
+.fundraiser-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yo/r/494eoIbXqM1.png");
+
+  background-position: 0px -379px;
+}
