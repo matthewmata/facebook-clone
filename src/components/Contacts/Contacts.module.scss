@@ -1,0 +1,84 @@
+@import "../../sass/app.scss";
+
+.birthdays {
+  margin-bottom: 8px;
+  h2 {
+    font-size: 17px;
+    color: $svgFill;
+    margin-bottom: 16px;
+    padding: 0 12px;
+  }
+
+  .birthday__container {
+    margin-right: 8px;
+  }
+
+  .birthday__content {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  i {
+    height: 36px;
+    width: 36px;
+    min-width: 36px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/0PUv2RbrApD.png);
+    background-position: 0 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 12px;
+  }
+
+  h3 {
+    display: inline;
+  }
+}
+
+.divider {
+  height: 1px;
+  border-width: 0;
+  background-color: $divider;
+  margin: 0 12px 16px 12px;
+}
+
+.contacts {
+  .contacts__header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 17px;
+    color: $svgFill;
+    margin-bottom: 8px;
+    padding: 0 12px;
+  }
+
+  li {
+    margin-right: 8px;
+  }
+
+  .contact__content {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+
+    h3 {
+      font-weight: normal;
+    }
+  }
+}
+
+.icons {
+  display: flex;
+}
+
+

@@ -8,7 +8,7 @@ const Dropdown = ({ onClickOutside, dropdown, children }) => {
 
   return (
     <div ref={ref} className={classes.dropdown}>
-      {children}
+        {children}
     </div>
   );
 };

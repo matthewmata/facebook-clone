@@ -9,8 +9,8 @@ const Likes = () => {
     >
       <defs>
         <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
-          <stop offset="0%" stop-color="#18AFFF" />
-          <stop offset="100%" stop-color="#0062DF" />
+          <stop offset="0%" stopColor="#18AFFF" />
+          <stop offset="100%" stopColor="#0062DF" />
         </linearGradient>
         <filter
           id="c"

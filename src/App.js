@@ -3,7 +3,9 @@ import Feed from "./components/Feed/Feed";
 import Contacts from "./components/Contacts/Contacts";
 
 import classes from "./App.module.scss";
+
 const App = () => {
+
   return (
     <div className={classes.grid}>
       <Header />

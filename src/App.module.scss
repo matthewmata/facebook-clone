@@ -17,6 +17,7 @@ body {
       ". ."
       "feed contacts";
   }
+
 }
 
 .feed {
@@ -34,5 +35,10 @@ body {
   width: 100%;
   @media (min-width: 900px) {
     display: block;
+    position: fixed;
+    width: 33%;
+    top: 64px;
+    right: 0px;
+    z-index: 1;
   }
 }

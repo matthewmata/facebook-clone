@@ -42,19 +42,19 @@ const Post = ({
       <div className={classes.buttons}>
         <Highlight>
           <div className={classes.icon}>
-            <i></i>
+            <i className={classes.like}></i>
             <span>Like</span>
           </div>
         </Highlight>
         <Highlight>
           <div className={classes.icon}>
-            <i></i>
+            <i className={classes.comment}></i>
             <span>Comment</span>
           </div>
         </Highlight>
         <Highlight>
           <div className={classes.icon}>
-            <i></i>
+            <i className={classes.share}></i>
             <span>Share</span>
           </div>
         </Highlight>
