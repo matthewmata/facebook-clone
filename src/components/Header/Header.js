@@ -16,7 +16,6 @@ const Header = () => {
 
   const expandSearchHandler = (bool) => {
     setExpandSearch(bool);
-    console.log("clicked", bool, expandSearch);
   };
 
   const ref = outsideClick(() => expandSearchHandler(false));
