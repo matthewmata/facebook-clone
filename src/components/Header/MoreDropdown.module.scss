@@ -1,9 +1,17 @@
+@import "../../sass/app.scss";
+
 .more__dropdown {
   padding: 8px;
 }
 
+.divider {
+  margin: 8px 8px;
+  height: 1px;
+  border-width: 0;
+  background-color: $divider;
+}
+
 .more__item {
-  padding: 4px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -13,6 +21,14 @@
     font-weight: normal;
     font-size: 15px;
   }
+}
+
+.header__item {
+  padding: 4px;
+}
+
+.aside__item {
+  padding: 8px
 }
 
 .more__item-first-last {
@@ -25,6 +41,9 @@
   background-repeat: no-repeat;
   display: inline-block;
   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/BHDNlEdwMgn.png");
+}
+
+.header-icons {
   transform: scale(0.77777777);
 }
 

@@ -95,7 +95,7 @@ const More = () => {
       </ul>
       {expandMore && (
         <div className={classes.more_overlay}>
-          <MoreDropdown />
+          <MoreDropdown iconSize={28} section="header"/>
         </div>
       )}
     </div>
