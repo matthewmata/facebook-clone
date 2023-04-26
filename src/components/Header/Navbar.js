@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import NavbarItem from "./NavbarItem";
 
 import classes from "./Navbar.module.scss";

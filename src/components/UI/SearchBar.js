@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import Search from "../SVG/Search";
 import BackArrow from "../SVG/BackArrow";
 
