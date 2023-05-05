@@ -2,9 +2,9 @@ import MoreDropdown from "../Header/MoreDropdown";
 
 const More = () => {
   return (
-    <div>
+    <aside>
       <MoreDropdown iconSize={36} section="aside" />
-    </div>
+    </aside>
   );
 };
 
