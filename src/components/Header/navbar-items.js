@@ -21,8 +21,8 @@ const NAV_ITEMS = [
     dropdown: MessengerDropdown,
   },
   {
-    title: "Notfications",
-    url: "/create",
+    title: "Notifications",
+    url: "/notifications",
     component: Notifications,
     dropdown: NotificationsDropdown,
   },
