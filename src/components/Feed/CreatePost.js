@@ -5,6 +5,10 @@ import Highlight from "../UI/Highlight";
 import classes from "./CreatePost.module.scss";
 
 import Joel from "../../images/joel.jpeg";
+import FeelingActivity from "../../images/icon-feeling-activity.png";
+import LiveVideo from "../../images/icon-live-video.png";
+import PhotoVideo from "../../images/icon-photo-video.png"
+
 
 const CreatePost = () => {
   return (
@@ -18,19 +22,19 @@ const CreatePost = () => {
         <div className={classes.buttons__container}>
           <Highlight>
             <div className={classes.icon}>
-              <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/epGAMnVkMsy.png" alt="Live Video"></img>
+              <img src={LiveVideo} alt="Live Video"></img>
               <span>Live Video</span>
             </div>
           </Highlight>
           <Highlight>
             <div className={classes.icon}>
-              <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/74AG-EvEtBm.png" alt="Video Icon"></img>
+              <img src={PhotoVideo} alt="Video Icon"></img>
               <span>Photo/Video</span>
             </div>
           </Highlight>
           <Highlight>
             <div className={classes.icon}>
-              <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/_RWOIsUgWGL.png" alt="Feeling/Activity"></img>
+              <img src={FeelingActivity} alt="Feeling/Activity"></img>
               <span>Feeling/Activity</span>
             </div>
           </Highlight>

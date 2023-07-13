@@ -36,10 +36,6 @@ const MORE_DROPDOWN_MENU = [
     icon: "ad-center-icon",
   },
   {
-    title: "Ads Manager",
-    icon: "ads-manager-icon",
-  },
-  {
     title: "Blood Donations",
     icon: "blood-donations-icon",
   },
@@ -72,16 +68,8 @@ const MORE_DROPDOWN_MENU = [
     icon: "messenger-icon",
   },
   {
-    title: "Messenger Kids",
-    icon: "messenger-kids-icon",
-  },
-  {
     title: "Meta Quest",
     icon: "meta-quest-icon",
-  },
-  {
-    title: "News",
-    icon: "news-icon",
   },
   {
     title: "Orders and Payments",
@@ -94,15 +82,6 @@ const MORE_DROPDOWN_MENU = [
   {
     title: "Ray-Ban Stories",
     icon: "ray-ban-stories-icon",
-  },
-
-  {
-    title: "Recent Ad Activity",
-    icon: "recent-ad-activity-icon",
-  },
-  {
-    title: "Voting Information Center",
-    icon: "voting-information-center-icon",
   },
 ];
 
