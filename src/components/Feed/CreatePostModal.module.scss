@@ -1,0 +1,97 @@
+@import "../../sass/app.scss";
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 500px;
+  padding: 16px 0;
+
+  .header {
+    display: flex;
+
+    .header__details {
+      text-align: left;
+      padding-left: 12px;
+
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.post-audience {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: lighten($secondary, 10);
+  border-radius: 5px;
+  cursor: pointer;
+
+  h4 {
+    font-weight: bold;
+    font-size: 13px;
+    color: $white;
+    padding: 0 4px;
+  }
+}
+
+.friends-icon {
+  -webkit-filter: invert(89%) sepia(6%) hue-rotate(185deg);
+}
+
+.more-icon {
+  background-image: url("../../images/icons-IBLqWHnF7wz.png");
+  background-position: -159px -143px;
+  background-size: 189px 169px;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(89%) sepia(6%) hue-rotate(185deg);
+}
+
+.modal-text-area {
+    width: 100%;
+    outline: none;
+    display: block;
+    resize: none;
+    background-color: $secondary;
+    border: none;
+    min-height: 153px;
+    color: $white;
+    font-size: 26px;
+    font-family: "San Francisco";
+    &::placeholder {
+        font-family: "San Francisco";
+        font-size: 26px;
+    }
+}
+
+.post-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: $blue;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 16px;
+    &:hover {
+        background-color: $fillFocus;
+    }
+
+    span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.post-btn-empty {
+  background-color: $buttonEmpty;
+  cursor: not-allowed;
+      &:hover {
+        background-color: $buttonEmpty;
+    }
+}

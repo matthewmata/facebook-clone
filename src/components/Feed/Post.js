@@ -28,7 +28,7 @@ const Post = ({
         </div>
       </div>
       <p>{text}</p>
-      <img src={image} alt={id}></img>
+      {image && <img src={image} alt={id}></img>}
       <div className={classes.likesAndComments}>
         <div className={classes.likes}>
           <Likes />
